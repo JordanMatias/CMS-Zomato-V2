@@ -17,6 +17,9 @@ const Routing = () => {
         <Route path="/viewOrder" component={ViewOrdersApi} />
         <Route path="/register" component={RegisterComp} />
         <Route path="/login" component={LoginComp} />
+        <Route path="/viewStripe" component={viewStripe} />
+        <Route path="/registerOrder" component={registerOrder} />
+        <Route path="/loginStripe" mponent={loginStripe} />
       </BrowserRouter>
     );
 }
