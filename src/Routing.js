@@ -19,7 +19,10 @@ const Routing = () => {
         <Route path="/login" component={LoginComp} />
         <Route path="/viewStripe" component={viewStripe} />
         <Route path="/registerOrder" component={registerOrder} />
-        <Route path="/loginStripe" mponent={loginStripe} />
+        <Route path="/logout" component={LogoutComp} />
+        <Route path="/attributeComp" component={attributeComp} />
+        <Route path="/list" component={list} />
+        <Route path="/generate" mponent={generate} />
       </BrowserRouter>
     );
 }
