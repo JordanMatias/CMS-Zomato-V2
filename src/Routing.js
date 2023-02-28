@@ -7,6 +7,8 @@ import ViewOrdersApi from './components/veiworders/ViewOrdersApi'
 import RegisterComp from './components/loginRegister/RegisterComp'
 import LoginComp from "./components/loginRegister/LoginComp";
 import Home from './components/Tune'
+
+
 import RestaurantDetailsApi from './components/details/CloudAPI'
 import ViewOrdersApi from './components/veiworders/VendorAPI'
 
